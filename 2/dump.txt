@@ -1,0 +1,2 @@
+{"caption": "This is a moving caption.", "contributors": ["Josh", "Erdos"], "year": 2000, "path": "sexy.gif", "title": "Sloths just wanna have fun", "type": "Picture", "day": 1, "month": 12}
+{"contributors": ["Bob"], "headline": "38 percent of Undergraduates Perish in Blizzard", "month": 2, "content": "Unfortunately, there's not much to say. Included in these numbers was the entire lampoon staff, who were swept into the abyss, leaving only a stack of pseudo-funny news articles and fake cigars.", "year": 2015, "type": "Article", "day": 14}
