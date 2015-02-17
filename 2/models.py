@@ -24,7 +24,7 @@ class Content(object):
 class Article(Content):
 	def __init__(self, year, month, day, headline, content, contributors):
 		# initializes Content attributes
-		Content.__init__(self, year, month, day, contributors)
+		super(Article, self).__init__(year, month, day, contributors)
 
 		# stores headline and content
 		self.headline = headline
@@ -41,7 +41,7 @@ class Article(Content):
 class Picture(Content):
 	def __init__(self, year, month, day, title, caption, path, contributors):
 		# initializes Content attributes
-		Content.__init__(self, year, month, day, contributors)
+		super(Picture, self).__init__(year, month, day, contributors)
 
 		# initializes picture specific attributes
 		self.title = title
