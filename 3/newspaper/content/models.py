@@ -15,10 +15,6 @@ class Article(Content):
 class Image(Content):
 	path = models.FilePathField(path = '/home/Dropbox/CrimComp/Assignments/3')
 
-	# not exactly sure what save is supposed to be doing...
-	def save(self, *args, **kwargs):
-		return
-
 	def info(self):
 		return '{0}\n{1}\npath: {2}'.format(self.title, self.subtitle, self.path)
 
