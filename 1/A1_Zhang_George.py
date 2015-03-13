@@ -36,6 +36,7 @@ def sortcat(n, *strs):
 	for i in range(n if n != -1 and n < len(strlist) else len(strlist)):
 		ret += strlist[i]
 	return ret
+	# Can also use "".join(list_of_strings)
 
 # Blue's Clues / Booze #nomnom #turnup
 # Opens states.txt and indexes contents into dictionary
