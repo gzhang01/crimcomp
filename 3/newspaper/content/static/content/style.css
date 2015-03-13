@@ -1,0 +1,16 @@
+h1 {
+	color: green;
+}
+h2{
+	margin: 10px;
+}
+li {
+	padding: 5px;
+	color: green;
+}
+a {
+	color: green;
+}
+a:hover {
+	color: blue;
+}

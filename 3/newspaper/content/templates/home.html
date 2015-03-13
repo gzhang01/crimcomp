@@ -1,0 +1,19 @@
+{% load staticfiles %}
+<link rel='stylesheet' type='text/css' href='{% static 'content/style.css' %}' />
+
+<h1>This is a newspaper!</h1>
+<h2>Articles:</h2>
+<ul>
+{% for article in articles %}
+	<li><a href="{{ article.get_absolute_url }}">{{article.title}}</a>
+{% endfor %}
+</ul>
+
+<h2>Images:</h2>
+{% for image in images %}
+	<p>
+		<a href="{{ image.get_absolute_url }}">
+			{{image.title}}
+		</a>
+	</p>
+{% endfor %}
