@@ -1,4 +1,4 @@
-(# A1_Zhang_George.py
+# A1_Zhang_George.py
 # Crimson Tech Comp Assignment 1
 # George Zhang
 
@@ -69,4 +69,3 @@ print find_abbrev("Nebraska")
 # abbreviations to return
 
 # But Blue should learn to code
-
